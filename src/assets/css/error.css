@@ -1,0 +1,26 @@
+.error {
+  height: calc(100vh - 321px);
+}
+
+.error h3 {
+  font-size: 60px;
+  font-weight: 700;
+  padding: 20px 0px;
+}
+
+.error h4 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+}
+
+.error p {
+  margin-bottom: 30px !important;
+}
+
+.home-btn a {
+  text-decoration: none;
+  background: var(--blue);
+  color: #fff;
+  padding: 15px 20px;
+}

@@ -1,0 +1,49 @@
+.colors {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.colors button {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: none;
+  outline: none;
+  opacity: 0.5;
+  color: white !important;
+}
+
+.colors button:hover {
+  opacity: 1;
+}
+
+.active {
+  opacity: 1 !important;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0px;
+}
+
+.counter span {
+  font-size: 25px;
+}
+.counter i {
+  font-size: 14px;
+}
+
+.add-to-cart-btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  background: var(--blue);
+  color: #fff;
+  margin-top: 10px;
+}
+
+.add-to-cart-btn:hover {
+  color: #fff;
+}

@@ -1,0 +1,10 @@
+.shop-btn {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding: 10px 15px;
+  background: var(--blue);
+  border: none;
+  color: #fff;
+  outline: none;
+}

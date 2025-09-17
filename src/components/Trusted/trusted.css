@@ -1,0 +1,42 @@
+.trusted {
+  background: var(--bg);
+  padding: 50px 0px;
+  /* height: 260px; */
+}
+.trusted h3 {
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.trusted .numbers {
+  color: var(--primary);
+  padding: 0px 5px;
+}
+.companies {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.companies .logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.companies .logos img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  /* position: absolute; */
+}
+
+@media (max-width: 450px) {
+  .companies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}

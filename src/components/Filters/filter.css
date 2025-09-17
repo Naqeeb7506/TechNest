@@ -1,0 +1,64 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.filters .filter-search-input {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.filters .filter-category h3,
+.filters .filter-company h3 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.filters .filter-category .filter-category-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filters .filter-category .filter-category-list button {
+  /* padding: 5px 10px; */
+  border: none;
+  text-transform: capitalize;
+  background-color: white;
+  cursor: pointer;
+  text-align: left;
+  border-bottom: 2px solid transparent;
+  width: fit-content;
+}
+
+.filter-category-list button:hover {
+  color: var(--blue);
+  transition: all 0.1s ease-in-out;
+  border-bottom: 2px solid var(--blue) !important;
+}
+
+.filter-category-list .active {
+  color: var(--blue);
+  border-bottom: 2px solid var(--blue) !important;
+}
+
+.filter-clear .clear-btn {
+  background: var(--blue);
+  border: none;
+  color: white;
+  padding: 10px 15px;
+}
+
+@media (max-width: 480px) {
+  .filters {
+    gap: 20px;
+  }
+  .filters .filter-category .filter-category-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .filters .filter-search-input {
+    width: 100%;
+  }
+}
