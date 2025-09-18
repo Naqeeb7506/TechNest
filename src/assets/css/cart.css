@@ -42,8 +42,7 @@ tbody td {
 }
 
 .shopping {
-  text-decoration: none;
-  color: #fff;
+  background: var(--blue) !important;
 }
 
 .btns {
